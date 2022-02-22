@@ -1,0 +1,29 @@
+.white-background {
+  background-color: #e8e8e8;
+}
+
+.grey-background {
+  background-color: #9a9798;
+}
+
+.icons-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons-list__item {
+  display: inline-block;
+}
+
+.icon {
+  height: 120px;
+}
+
+.down-arrow {
+  height: 50px;
+  opacity: 0.3;
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  cursor: pointer;
+}
