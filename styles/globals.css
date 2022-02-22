@@ -1,9 +1,22 @@
+@keyframes opacity-load {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.6;
+  }
+}
+
 .white-background {
   background-color: #e8e8e8;
 }
 
 .grey-background {
   background-color: #9a9798;
+}
+
+.special-background {
+  background-color: #cca258;
 }
 
 .icons-list {
@@ -20,8 +33,9 @@
 }
 
 .down-arrow {
+  animation: 2s step-end 0s 1 opacity-load;
   height: 50px;
-  opacity: 0.3;
+  opacity: 0.6;
   position: absolute;
   top: 90%;
   left: 48%;

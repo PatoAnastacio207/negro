@@ -1,0 +1,13 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+}
+
+textarea {
+  height: 200px;
+}

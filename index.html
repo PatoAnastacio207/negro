@@ -7,6 +7,7 @@
     <title>Soloaga Argañaras & Asoc.</title>
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/form.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,34 +26,38 @@
       <a href="#title">
         <img
           class="navBar__logo"
-          src="assets/SmallLogo.png"
+          src="assets/content/SmallLogo.png"
           alt="Solaga Aragañaras & Asoc."
         />
       </a>
       <ul class="navBar__links">
         <li><a class="navBar__link" href="#aboutUs">SOBRE NOSOTROS</a></li>
         <li><a class="navBar__link" href="#content">TRÁMITES</a></li>
-        <li><a class="navBar__link" href="#stuff">NUESTRO EQUIPO</a></li>
+        <li><a class="navBar__link" href="#staff">NUESTRO EQUIPO</a></li>
         <li><a class="navBar__link" href="#contact">CONTACTO</a></li>
       </ul>
     </header>
 
     <main class="main">
       <a href="https://wa.me/+543814965744" class="static-box">
-        <img src="assets/whatsapp-log.png" alt="" class="whatsapp-logo" />
+        <img
+          src="assets/media/whatsapp-logo.png"
+          alt=""
+          class="whatsapp-logo"
+        />
         <p target="_blank">Contactanos</p>
       </a>
+      <img
+        class="down-arrow"
+        id="down-arrow"
+        src="assets/icons/downArrow.png"
+        alt="Siguiente Pagina"
+      />
       <div class="scroll" id="scrollContainer">
-        <img
-          class="down-arrow"
-          id="down-arrow"
-          src="assets/downArrow.png"
-          alt="Siguiente Pagina"
-        />
-        <section class="title scrollSnap" id="title">
+        <section class="title scrollSnap borra-esto" id="title">
           <img
             class="title__logo"
-            src="assets/logoMain.png"
+            src="assets/content/logoMain.png"
             alt="Sologo Argañaras y asociados logo"
           />
           <h1 class="title__title">
@@ -78,76 +83,83 @@
                 superintendencia de riesgo de trabajo
               </p>
               <div class="aboutUs__icons icons-list">
-                <img class="icon" src="assets/suitcase.png" alt="" />
-                <img class="icon" src="assets/hands.png" alt="" />
-                <img class="icon" src="assets/hammer.png" alt="" />
+                <img class="icon" src="assets/icons/suitcase.png" alt="" />
+                <img class="icon" src="assets/icons/hands.png" alt="" />
+                <img class="icon" src="assets/icons/hammer.png" alt="" />
               </div>
             </div>
             <div class="aboutUs__videoContainer">
               <video class="aboutUs__video" controls>
-                <source src="assets/aboutUsVideo.mp4" />
+                <source src="assets/content/aboutUsVideo.mp4" />
                 No se puede reproducir el video.
               </video>
             </div>
           </div>
         </article>
-        <section class="stuff scrollSnap white-background" id="stuff">
-          <h3 class="stuff__title">NUESTRO EQUIPO</h3>
-          <div class="stuff__container">
-            <div class="stuff__card">
-              <img src="assets/usuario.jpg" alt="usuario" />
-              <div class="stuff__card-text">
+        <section class="art scrollSnap special-background">
+          <img
+            src="assets/content/arts.jpeg"
+            alt="Arts con las que trabajamos"
+            class="art__img"
+          />
+        </section>
+        <section class="staff scrollSnap white-background" id="staff">
+          <h3 class="staff__title">NUESTRO EQUIPO</h3>
+          <div class="staff__container">
+            <div class="staff__card">
+              <img src="assets/icons/usuario.jpg" alt="usuario" />
+              <div class="staff__card-text">
                 <p>Enrique Argañaras</p>
                 <p>Abogado</p>
-                <div class="stuff__card-icon">
-                  <img src="assets/phone.png" alt="" />
+                <div class="staff__card-icon">
+                  <img src="assets/icons/phone.png" alt="" />
                   <p>+54 381 496-5744</p>
                 </div>
               </div>
             </div>
-            <div class="stuff__card">
-              <img src="assets/usuario.jpg" alt="usuario" />
-              <div class="stuff__card-text">
+            <div class="staff__card">
+              <img src="assets/icons/usuario.jpg" alt="usuario" />
+              <div class="staff__card-text">
                 <p>Mario Soloaga</p>
                 <p>Abogado</p>
-                <div class="stuff__card-icon">
-                  <img src="assets/phone.png" alt="" />
+                <div class="staff__card-icon">
+                  <img src="assets/icons/phone.png" alt="" />
                   <p>+54 381 620-3028</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="stuff__list-container">
-            <div class="stuff__list stuff__list-abogados">
-              <h3 class="stuff__list-title">Abogados</h3>
+          <div class="staff__list-container">
+            <div class="staff__list staff__list-abogados">
+              <h3 class="staff__list-title">Abogados</h3>
               <ul>
-                <li class="stuff__list-item">Dr. Daina Viluron</li>
-                <li class="stuff__list-item">Dr. Melisa Retondo Ayunta</li>
-                <li class="stuff__list-item">Dr. Julissa Albarracin</li>
-                <li class="stuff__list-item">Dr. Manuel Gonzalez</li>
-                <li class="stuff__list-item">Dr. Jose Rodriguez</li>
-                <li class="stuff__list-item">Dr. Daniel Umbides</li>
-                <li class="stuff__list-item">Dr. Candela Otero</li>
-                <li class="stuff__list-item">Dr. Maria Belen Nasif</li>
-                <li class="stuff__list-item">Dr. Mariela Chaile</li>
+                <li class="staff__list-item">Dr. Daina Viluron</li>
+                <li class="staff__list-item">Dr. Melisa Retondo Ayunta</li>
+                <li class="staff__list-item">Dr. Julissa Albarracin</li>
+                <li class="staff__list-item">Dr. Manuel Gonzalez</li>
+                <li class="staff__list-item">Dr. Jose Rodriguez</li>
+                <li class="staff__list-item">Dr. Daniel Umbides</li>
+                <li class="staff__list-item">Dr. Candela Otero</li>
+                <li class="staff__list-item">Dr. Maria Belen Nasif</li>
+                <li class="staff__list-item">Dr. Mariela Chaile</li>
               </ul>
             </div>
-            <div class="stuff__list stuff__list-medicos">
-              <h3 class="stuff__list-title">Medico laboral</h3>
+            <div class="staff__list staff__list-medicos">
+              <h3 class="staff__list-title">Medico laboral</h3>
               <ul>
-                <li class="stuff__list-item">Dra. Lizia Barreiro</li>
+                <li class="staff__list-item">Dra. Lizia Barreiro</li>
               </ul>
             </div>
-            <div class="stuff__list stuff__list-kinesiologo">
-              <h3 class="stuff__list-title">Kinesiologo</h3>
+            <div class="staff__list staff__list-kinesiologo">
+              <h3 class="staff__list-title">Kinesiologo</h3>
               <ul>
-                <li class="stuff__list-item">Lic. Cesar Agusto Umbides</li>
+                <li class="staff__list-item">Lic. Cesar Agusto Umbides</li>
               </ul>
             </div>
-            <div class="stuff__list stuff__list-psicologo">
-              <h3 class="stuff__list-title">Psicologo</h3>
+            <div class="staff__list staff__list-psicologo">
+              <h3 class="staff__list-title">Psicologo</h3>
               <ul>
-                <li class="stuff__list-item">Lic. Federico Montoya</li>
+                <li class="staff__list-item">Lic. Federico Montoya</li>
               </ul>
             </div>
           </div>
@@ -222,44 +234,52 @@
         </section>
         <section class="contact scrollSnap" id="contact">
           <h3 class="contact__title">CONTACTO</h3>
-          <p>telefono: 4331760</p>
-          <a
-            href="https://www.facebook.com/profile.php?id=100064244014067"
-            target="_blank"
-          >
-            <img
-              class="contact__logo"
-              src="assets/facebookLogo.png"
-              alt="Nuestro Facebook"
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/soloaga_arganaras_asociados/"
-            target="_blank"
-          >
-            <img
-              src="assets/instagram.png"
-              alt="Nuestro Instagram"
-              class="contact__logo"
-            />
-          </a>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.9795524883425!2d-65.21050114812782!3d-26.840602656350153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0bdf751fc5%3A0x1b16af6cebaca7a4!2sBuenos%20Aires%20710%2C%20T4000IJP%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1644205623618!5m2!1ses-419!2sar"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
-          <form action="" method="post">
-            <label for="POST-name">Email:</label>
-            <input id="POST-name" type="email" name="email" />
-            <label for="POST-name">Nombre:</label>
-            <input id="POST-name" type="text" name="nombre" />
-            <label for="POST-name">Mensaje:</label>
-            <textarea id="POST-name" type="" name="mensaje"></textarea>
-            <input type="submit" value="Enviar" />
-          </form>
+          <div class="contact__container">
+            <div class="contact__info">
+              <p>telefono: 4331760</p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.9795524883425!2d-65.21050114812782!3d-26.840602656350153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0bdf751fc5%3A0x1b16af6cebaca7a4!2sBuenos%20Aires%20710%2C%20T4000IJP%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses-419!2sar!4v1644205623618!5m2!1ses-419!2sar"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="contact__form">
+              <form action="" method="post">
+                <label for="POST-name">Email:</label>
+                <input id="POST-name" type="email" name="email" />
+                <label for="POST-name">Nombre:</label>
+                <input id="POST-name" type="text" name="nombre" />
+                <label for="POST-name">Mensaje:</label>
+                <textarea id="POST-name" type="" name="mensaje"></textarea>
+                <input type="submit" value="Enviar" />
+              </form>
+              <div class="icons-list">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100064244014067"
+                  target="_blank"
+                >
+                  <img
+                    class="contact__logo"
+                    src="assets/media/facebookLogo.png"
+                    alt="Nuestro Facebook"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/soloaga_arganaras_asociados/"
+                  target="_blank"
+                >
+                  <img
+                    src="assets/media/instagram.png"
+                    alt="Nuestro Instagram"
+                    class="contact__logo"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </section>
       </div>
     </main>
