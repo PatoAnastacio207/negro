@@ -10,15 +10,12 @@
 }
 
 .scroll {
-  /* scroll-snap-type: y mandatory; */
   overflow-y: scroll;
   overflow: auto;
 }
 
 .scroll,
 .scrollSnap {
-  /* height: calc(100vh - 80px);
-  max-height: calc(100vh - 80px); */
   scroll-snap-align: start;
 }
 
@@ -50,13 +47,13 @@ h2 {
 }
 
 /* >> BORRAR << */
-.borra-esto {
+/* .borra-esto {
   height: calc(100vh - 80px);
   max-height: calc(100vh - 80px);
-}
+} */
 
 .static-box {
-  position: absolute;
+  position: fixed;
   bottom: 0%;
   width: 270px;
   height: 80px;
@@ -204,7 +201,7 @@ h2 {
 }
 
 .art__img {
-  height: 100%;
+  height: calc(100vh - 80px);
 }
 
 .content {
@@ -226,7 +223,7 @@ h2 {
 }
 
 .staff {
-  padding: 60px 100px;
+  padding: 110px 200px;
 }
 
 .staff__title {
@@ -236,11 +233,14 @@ h2 {
 .staff__container {
   margin-top: 50px;
   display: flex;
-  justify-content: space-around;
 }
 
 .staff__card img {
   height: 200px;
+}
+
+.staff__card-text {
+  margin-bottom: 20px;
 }
 
 .staff__card-text p {
@@ -257,8 +257,29 @@ h2 {
   justify-content: space-evenly;
 }
 
+.staff__container-cards {
+  
+}
+
 .staff__card {
-  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin-right: 50px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.staff__card-name {
+  font-size: 18px;
+}
+
+.staff__card-job {
+  color: grey;
+  font-size: 16px;
+}
+
+.staff__list-title {
+  margin-top: 30px;
 }
 
 .staff__list-container {

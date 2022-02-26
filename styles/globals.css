@@ -32,6 +32,11 @@
   height: 120px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
 .down-arrow {
   animation: 2s step-end 0s 1 opacity-load;
   height: 50px;
